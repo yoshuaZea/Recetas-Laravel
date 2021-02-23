@@ -74,7 +74,7 @@ class RecetaController extends Controller {
             'categoria' => 'required|integer',
             'preparacion' => 'required',
             'ingredientes' => 'required',
-            'imagen' => 'required|image|size:1000'
+            'imagen' => 'required|image|max:1000'
         ]);
 
         // Subir imágenes al servidor
